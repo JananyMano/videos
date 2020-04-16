@@ -6,11 +6,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 This app uses [YouTube Data API v3](https://developers.google.com/youtube/v3). 
 
-If you want to use this Youtube API, you should create a new project on Google developers console and enable the Youtube Data API v3. You will then create credentials to use this Youtube API into your application.
+If you want to use this Youtube API, you should create a new project on Google developers console and enable the Youtube Data API v3. You will then create credentials to use it into your application.
 
 ## Axios
 
-Axios is a 3rd party package that you can use to make a request over to the unsplash API :
+Axios is a 3rd party package that you can use to make a request over to the youtube Data API v3 :
 
 - axios.get( parameter1, parameter2) with parameter1, the unsplash API endpoint and parameter2, an object containing the header specifying ClientID authorization and the params specifying query strings.
 
