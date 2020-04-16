@@ -1,4 +1,51 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Welcome on Voutube
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). It looks like Youtube.
+
+## Youtube API
+
+This app uses [YouTube Data API v3](https://developers.google.com/youtube/v3). 
+
+If you want to use this Youtube API, you should create a new project on Google developers console and enable the Youtube Data API v3. You will then create credentials to use this Youtube API into your application.
+
+## Axios
+
+Axios is a 3rd party package that you can use to make a request over to the unsplash API :
+
+- axios.get( parameter1, parameter2) with parameter1, the unsplash API endpoint and parameter2, an object containing the header specifying ClientID authorization and the params specifying query strings.
+
+## Building list of videos
+
+If you want to display a list of videos, you will probably have a warning message "Each child in an array or iterator should have a unique key prop". 
+
+The key prop of each item should be an unique identifier.
+
+The purpose of key prop find its importance in the performance of [reconciliation react algorithm](https://fr.reactjs.org/docs/reconciliation.html) to make comparison between real DOM and virtual DOM. 
+
+## Frequently asked questions
+
+### How can I pass a property function from a child component to a parent component ?
+
+You can pass a callback property from the parent App to the child component. 
+
+In this example of SearchBar component, we pass a callback property onSubmit from the parent App component to the child SearchBar component, and the child SearchBar will call that callback to communicate with the parent App.
+
+You will find another example with onVideoSelect which is passed from parent App to VideoList component and then to VideoItem component. The VideoItem component call the callback to communicate with the parent App, which will set the selectedVideo and then pass this selectedVideo as props to VideoDetail component.
+
+### How can I solve context issues such as 'Error canot read property of undefined' ?
+
+You can bind the function inside the constructor method of the class.
+
+You can use inline JSX arrow function. There is an example in the form of the SearchBar component:
+
+``onChange={(e) => this.setState({ term: e.target.value })}``
+
+You can use arrow function instead of anonymous function inside your class component. 
+
+``onFormSubmit = (event) => {
+    event.preventDefault();
+    this.props.onSubmit(this.state.term);
+};``
 
 ## Available Scripts
 
@@ -10,9 +57,6 @@ Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br />
-
-This app uses [YouTube Data API v3](https://developers.google.com/youtube/v3).
-
 
 You will also see any lint errors in the console.
 
