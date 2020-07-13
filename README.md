@@ -1,6 +1,4 @@
-# Welcome on Voutube
-
-[![HitCount](http://hits.dwyl.com/JananyMano/videos.svg)](http://hits.dwyl.com/JananyMano/videos)
+# Welcome on Youtube
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). It looks like Youtube.
 
@@ -116,3 +114,5 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+[![HitCount](http://hits.dwyl.com/JananyMano/videos.svg)](http://hits.dwyl.com/JananyMano/videos)
