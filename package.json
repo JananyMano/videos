@@ -15,7 +15,17 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "test:coverage": "npm test -- --coverage --watchAll=false",
+    "test:badges": "npm run test:coverage  && jest-coverage-badges",
+    "make-badges": "node_modules/.bin/jest-badges-readme",
     "eject": "react-scripts eject"
+  },
+  "jest": {
+    "coverageReporters": [
+      "json-summary",
+      "text",
+      "lcov"
+    ]
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -33,6 +43,7 @@
     ]
   },
   "devDependencies": {
+    "@olavoparno/jest-badges-readme": "^1.5.1",
     "react-test-renderer": "^16.13.1"
   }
 }
