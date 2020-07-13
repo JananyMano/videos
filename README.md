@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 | Statements | Branches | Functions | Lines |
 | -----------|----------|-----------|-------|
-| ![Statements](https://img.shields.io/badge/Coverage-13.79%25-red.svg "Make me better!") | ![Branches](https://img.shields.io/badge/Coverage-0%25-red.svg "Make me better!") | ![Functions](https://img.shields.io/badge/Coverage-8.33%25-red.svg "Make me better!") | ![Lines](https://img.shields.io/badge/Coverage-13.79%25-red.svg "Make me better!") |
+| ![Statements](https://img.shields.io/badge/Coverage-75.86%25-red.svg "Make me better!") | ![Branches](https://img.shields.io/badge/Coverage-100%25-brightgreen.svg "Make me better!") | ![Functions](https://img.shields.io/badge/Coverage-66.67%25-red.svg "Make me better!") | ![Lines](https://img.shields.io/badge/Coverage-75.86%25-red.svg "Make me better!") |
 
 
 ## Youtube API

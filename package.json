@@ -4,7 +4,6 @@
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.4.0",
     "@testing-library/user-event": "^7.2.1",
     "axios": "^0.18.1",
     "react": "^16.12.0",
@@ -44,6 +43,7 @@
   },
   "devDependencies": {
     "@olavoparno/jest-badges-readme": "^1.5.1",
+    "@testing-library/react": "^9.5.0",
     "react-test-renderer": "^16.13.1"
   }
 }

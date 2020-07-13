@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VideoDetail component 1`] = `
+<div>
+  <div
+    className="ui embed"
+  >
+    <iframe
+      src="https://www.youtube.com/embed/2zToEPpFEN8"
+      title="video player"
+    />
+  </div>
+  <div
+    className="ui segment"
+  >
+    <h4
+      className="ui header"
+    >
+      SAINt JHN - Roses (Imanbek Remix) (Official Music Video)
+    </h4>
+    <p>
+      SAINt JHN - Roses (Imanbek Remix) (Ghetto Lenny One Takes) [Lyric Video] Stream/Download/Buy: https://marvellousmusic.lnk.to/rosesID Official Video at ...
+    </p>
+  </div>
+</div>
+`;

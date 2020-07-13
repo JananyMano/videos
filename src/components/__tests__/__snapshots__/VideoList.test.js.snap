@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`s’affiche avec ou sans nom 1`] = `
+<div
+  className="ui relaxed divided list"
+>
+  <div
+    className="video-item item"
+    onClick={[Function]}
+  >
+    <img
+      alt="SAINt JHN - Roses (Imanbek Remix) (Official Music Video)"
+      className="ui image"
+      src="https://i.ytimg.com/vi/2zToEPpFEN8/mqdefault.jpg"
+    />
+    <div
+      className="content"
+    >
+      <div
+        className="header"
+      >
+        SAINt JHN - Roses (Imanbek Remix) (Official Music Video)
+      </div>
+    </div>
+  </div>
+  <div
+    className="video-item item"
+    onClick={[Function]}
+  >
+    <img
+      alt="SAINt JHN - Roses [Official Music Video]"
+      className="ui image"
+      src="https://i.ytimg.com/vi/XHA-QM-q-3E/mqdefault.jpg"
+    />
+    <div
+      className="content"
+    >
+      <div
+        className="header"
+      >
+        SAINt JHN - Roses [Official Music Video]
+      </div>
+    </div>
+  </div>
+  <div
+    className="video-item item"
+    onClick={[Function]}
+  >
+    <img
+      alt="SAINt JHN - ROSES (Official Video) - Imanbek Remix"
+      className="ui image"
+      src="https://i.ytimg.com/vi/jOMHWVv0xX4/mqdefault.jpg"
+    />
+    <div
+      className="content"
+    >
+      <div
+        className="header"
+      >
+        SAINt JHN - ROSES (Official Video) - Imanbek Remix
+      </div>
+    </div>
+  </div>
+  <div
+    className="video-item item"
+    onClick={[Function]}
+  >
+    <img
+      alt="The Chainsmokers - Roses (Audio) ft. ROZES"
+      className="ui image"
+      src="https://i.ytimg.com/vi/FyASdjZE0R0/mqdefault.jpg"
+    />
+    <div
+      className="content"
+    >
+      <div
+        className="header"
+      >
+        The Chainsmokers - Roses (Audio) ft. ROZES
+      </div>
+    </div>
+  </div>
+  <div
+    className="video-item item"
+    onClick={[Function]}
+  >
+    <img
+      alt="SAINt JHN - ROSES (Imanbek Remix) (Lyrics)"
+      className="ui image"
+      src="https://i.ytimg.com/vi/iq7gBr0I5AU/mqdefault.jpg"
+    />
+    <div
+      className="content"
+    >
+      <div
+        className="header"
+      >
+        SAINt JHN - ROSES (Imanbek Remix) (Lyrics)
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Video Item component 1`] = `
+<div
+  className="video-item item"
+  onClick={[Function]}
+>
+  <img
+    alt="SAINt JHN - Roses (Imanbek Remix) (Official Music Video)"
+    className="ui image"
+    src="https://i.ytimg.com/vi/2zToEPpFEN8/mqdefault.jpg"
+  />
+  <div
+    className="content"
+  >
+    <div
+      className="header"
+    >
+      SAINt JHN - Roses (Imanbek Remix) (Official Music Video)
+    </div>
+  </div>
+</div>
+`;
